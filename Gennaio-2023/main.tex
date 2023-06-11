@@ -1,0 +1,92 @@
+\documentclass[fleqn]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{mathexam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\ExamClass{Algebra}
+\ExamName{Primo Appello}
+\ExamHead{27 Gennaio 2023}
+
+\let\ds\displaystyle
+
+\begin{document}
+\begin{enumerate}
+   \item Risolvere (se possibile) i seguenti sistemi di congruenze:
+   
+   \begin{enumerate} 
+      \item \begin{center} 
+      $ \begin{cases}
+         12x \equiv 21 \pmod{33} \\
+         25x \equiv 20 \pmod{35} \\
+         21x \equiv 33 \pmod{39} 
+      \end{cases} $
+      \end{center}
+      \item \begin{center} 
+      $ \begin{cases}
+         x \equiv 5 \pmod{18} \\
+         x \equiv 17 \pmod{21} \\
+         x \equiv 23 \pmod{24} 
+      \end{cases} $
+      \end{center}
+      \item \begin{center}
+      $ \begin{cases}
+         x \equiv 7 \pmod{18} \\
+         x \equiv 13 \pmod{21} \\
+         x \equiv 11 \pmod{24} 
+      \end{cases} $
+      \end{center}
+   \end{enumerate}
+
+   \item Discutere il comportamento del sistema(ovvero, se è determinato, indeterminato o incompatibile)
+   \begin{center}
+   $\begin{cases} 
+      x + y + az = 1 \\
+      x + z = 0 \\
+      x + y + a^3z = 3 \\
+      x + y + z = b
+   \end{cases}$ \\
+   \end{center}
+   al variare dei parametri $a,b \in \mathbb{R}$.
+
+   \item Data la matrice 
+   \begin{center}
+   $A = \begin{pmatrix}
+         1 & 0 & 2 & 3 \\
+         -3 & 1 & -5 & -2 \\
+         1 & -2 & 1 & -1 \\
+         1 & 1 & 2 & 0
+      \end{pmatrix}
+      \in Mat_{4x4}(\mathbb{R})$
+   \end{center}
+   si consideri l'applicazione lineare associata $L_A:\mathbb{R}^4 \rightarrow \mathbb{R}^4:v \rightarrow Av$
+   \begin{enumerate}
+      \item Determinare basi dei sottospazo ker($L_A$) e Im$(L_A)\subset \mathbb{R}$.
+      \item Determinare equazioni cartesiane del sottospazio Im$(L_A)$.
+   \end{enumerate}
+
+   \item Stabilire se la matrice
+   \begin{center}
+      $
+      A = \begin{pmatrix}
+         1 & 2 & -1 \\
+         1 & 0 & 1 \\
+         4 & -4 & 5
+      \end{pmatrix}
+   $
+   \end{center}
+   è diagonalizzabile (sul campo $\mathbb{R}$ dei numeri reali). In caso affermativo, determinare una matrice invertibile
+    $B \in GL(3,\mathbb{R})$ e una matrice diagonale $D \in Mat_{3x3}(\mathbb{R})$ tali che  
+
+   \begin{center}
+      $D= B^{-1}AB.$
+   \end{center}
+   
+   \item Dati interi $m,n \geq 1,$ sia $d := MCD(m,n)$ il loro massimo comun divisore. Dati i polinomi $p(x) := x^m-1$
+   e $q(x) := x^n-1$, mostrare che  $MCD(p(x),q(x)) = x^d-1$. \\
+   (\textbf{Suggerimento:} mostrare prima che dati interi 
+   $a \geq b \geq 1$, se $r$ è il resto della divisione di $a$ per $b$, allora $x^r-1$ è il resto della divisione
+   di $x^a-1$ per $x^b-1$).
+\end{enumerate}
+Esame trascritto in \textbf{\LaTeX} da Lucian D. Crainic.
+\end{document}
