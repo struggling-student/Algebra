@@ -2,21 +2,95 @@
 \usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
 \usepackage{mathexam}
 \usepackage{amsmath}
+\usepackage{amsfonts}
 
 \ExamClass{Algebra}
-\ExamName{Primo Appello}
-\ExamHead{23 Gennaio 2023}
+\ExamName{Secondo Appello}
+\ExamHead{13 Febbraio 2023}
 
 \let\ds\displaystyle
 
 \begin{document}
-\ExamInstrBox{Questo esame è stato trascritto in \textbf{\LaTeX.}  per rendere più facile l'utilizzo
-durante l'esercitazione. Il motivo di questa scelta è perchè il Professore non consente di portare a casa
-gli esami. Quindi tramite studenti che hanno già sostenuto l'esame, ho trascritto l'esame utilizzando foto fornite da loro.
-In caso di errori, contattare via email crainic.lucian@gmail.com.}
 \begin{enumerate}
-   \item Write the test instructions here.
+    \item Risolvere (se possibile) i seguenti sistemi di congruenze:
+   
+    \begin{enumerate} 
+       \item \begin{center} 
+       $ \begin{cases}
+          10x \equiv 14 \pmod{18} \\
+          16x \equiv 8 \pmod{22} \\
+          9x \equiv 24 \pmod{30} 
+       \end{cases} $
+       \end{center}
+       \item \begin{center} 
+       $ \begin{cases}
+          x \equiv 7 \pmod{15} \\
+          x \equiv 12 \pmod{20} \\
+          x \equiv 10 \pmod{24} 
+       \end{cases} $
+       \end{center}
+       \item \begin{center}
+       $ \begin{cases}
+          x \equiv 6 \pmod{15} \\
+          x \equiv 15 \pmod{18} \\
+          x \equiv 1 \pmod{20} 
+       \end{cases} $
+       \end{center}
+    \end{enumerate}
+
+    \item Discutere il comportamento del sistema(ovvero, se è determinato, indeterminato o incompatibile)
+    \begin{center}
+    $\begin{cases} 
+       kx + y + z = 1 \\
+       x + ky + z  = k \\
+       x + y + kz = k^2
+    \end{cases}$ \\
+    \end{center}
+    Al variare del parametro $k \in \mathbb{R}$. Per quei valori di k che rendono il sistema determinato,
+    calcolare l'unica soluzione. Per quei valori di k che rendono il sistema indeterminato, determinare
+    una rappresentazione parametrica dell'insieme delle soluzioni.
+
+    \item Calcolare l'ordine e l'inverso di $[223]$ nel gruppo $\mathbb{Z}_{360}^*$.
+    
+    \item Stabilire per quali valori del parametro $k \in \mathbb{R}$ la matrice 
+    \begin{center}
+    $A = \begin{pmatrix}
+          3 & k & 3\\
+          0 & 0 & -k  \\
+          0 & 1-k & 1 &
+       \end{pmatrix}$
+    \end{center}
+    è diagonalizzabile (sul campo $\mathbb{R}$ dei numeri reali).
+
+    \item Sia $A_n \in Mat_{nxn}(\mathbb{R})$ la matrice con tutti uno sulla prima riga, la prima colonna
+    e la diagonale principale, e tutti zero altrove. Ad esempio per $n=2,3,4,5,...$
+    \begin{center}
+    $
+    A_2 = \begin{pmatrix}
+          1 & 1 \\
+          1 & 1
+       \end{pmatrix},
+    A_3 = \begin{pmatrix}
+        1 & 1 & 1\\
+        1 & 1 & 0  \\
+        1 & 0 & 1 &
+     \end{pmatrix},
+    A_4 = \begin{pmatrix}
+        1 & 1 & 1 & 1\\
+        1 & 1 & 0 & 0  \\
+        1 & 0 & 1 & 0 \\
+        1 & 0 & 0 & 1 
+     \end{pmatrix},
+    A_5 = \begin{pmatrix}
+        1 & 1 & 1 & 1 & 1\\
+        1 & 1 & 0 & 0 & 0  \\
+        1 & 0 & 1 & 0 & 0 \\
+        1 & 0 & 0 & 1 & 0 \\
+        1 & 0 & 0 & 0 & 1
+     \end{pmatrix},
+    $
+    \end{center}
+     Mostrare che det$(A_n) = 2-n$.
 \end{enumerate}
+Esame trascritto in \textbf{\LaTeX} da Lucian D. Crainic.
 \end{document}
-
-
