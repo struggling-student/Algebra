@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1686581984 "/Users/lucian/Documents/GitHub/struggling-student/Algebra/Marzo-2023/main.tex" "main.pdf" "main" 1686581984
-  "/Users/lucian/Documents/GitHub/struggling-student/Algebra/Marzo-2023/main.tex" 1686581983 2676 d54a14e04bef8184bc09e2477fe44f38 ""
+["pdflatex"] 1686583273 "/Users/lucian/Documents/GitHub/struggling-student/Algebra/Marzo-2023/main.tex" "main.pdf" "main" 1686583274
+  "/Users/lucian/Documents/GitHub/struggling-student/Algebra/Marzo-2023/main.tex" 1686583273 2683 908388b6a5010f77edd9d977255b0d1b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -157,8 +157,8 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678809284 2826444 4325f336f00a600be1f73f084a6ff30c ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "main.aux" 1686581984 316 f323640d7f752e2d6d51c1b583febf09 "pdflatex"
-  "main.tex" 1686581983 2676 d54a14e04bef8184bc09e2477fe44f38 ""
+  "main.aux" 1686583274 316 f323640d7f752e2d6d51c1b583febf09 "pdflatex"
+  "main.tex" 1686583273 2683 908388b6a5010f77edd9d977255b0d1b ""
   (generated)
   "main.aux"
   "main.log"
