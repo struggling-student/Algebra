@@ -3,8 +3,6 @@
 \usepackage{mathexam}
 \usepackage{amsmath}
 \usepackage{amsfonts}
-\usepackage[svgnames]{xcolor}
-\usepackage[tikz]{bclogo}
 
 \ExamClass{Algebra}
 \ExamName{Terzo Appello}
@@ -46,11 +44,11 @@
       x + ay + 3z = 1 \\
       y + az = 0 \\
       x + y + z = b \\
-      2x + ax + az = 2
+      2x + ay + az = 2
    \end{cases}$ \\
    \end{center}
    al variare dei parametri $a,b \in \mathbb{R}$.
-   \item Denotiamo con $(\mathbb{Z}_n^*, \cdot)$ il gruppo moltiplicativo degli interi invertiti modulo $n$.
+   \item Denotiamo con $(\mathbb{Z}_n^*, \cdot)$ il gruppo moltiplicativo degli interi invertibili modulo $n$.
    \begin{enumerate}
     \item stabilire se i gruppi $(\mathbb{Z}_9^*, \cdot)$ e $(\mathbb{Z}_{14}^*, \cdot)$ sono isomorfi tra loro.
     \item stabilire se i gruppi $(\mathbb{Z}_{24}^*, \cdot)$ e $(\mathbb{Z}_{30}^*, \cdot)$ sono isomorfi tra loro.
@@ -73,12 +71,26 @@
       $D= B^{-1}AB.$
    \end{center}
    
-   \item ??? 
-   \begin{bclogo}[logo=\bcattention, couleurBarre=red, noborder=true, 
-               couleur=LightSalmon]{Importante!}
-    L'esercizio 5 non è stato scritto/salvato da nessun studente. 
-    Se hai una copia di questo esercizio, per favore inviala via email a crainic.lucian@gmail.com. Grazie!
-\end{bclogo}
+   \item Siano dati i polinomi $p_1(x),...,p_n(x) \in \mathbb{K}[x]$ (con $\mathbb{K}$ un campo) a due a due co-primi
+   tra loro, ovvero tali che $MCD(p_i(x),p_j(x))=1$ per ogni $i \neq j$. Denotando con $P(x)=p_1(x)p_2(x)...p_n(x)$ 
+   il loro prodotto, siano $P_1(x),...,P_n(x) \in \mathbb{K}[x]$ i polinomi definiti da
+
+   $
+   P_1(x) := \frac{P(x)}{p_1(x)}=p_2(x)p_3(x)...p_n(x),
+   $ 
+   
+      \qquad \qquad \qquad \qquad $P_2(x) := \frac{P(x)}{p_2(x)}=p_1(x)p_3(x)...p_n(x),$ 
+
+      \qquad \qquad \qquad \qquad \qquad \qquad \qquad $..., \quad P_n(x) := \frac{P(x)}{p_n(x)}=p_1(x)p_2(x)...p_{n-1}(x),$ 
+
+   \begin{enumerate}
+      \item Mostrare che $MCD(p_i(x),P_i(x))=1$ per ogni $i=1,...,n$.
+      \item Mostrare che $MCD(P_1(x),..,P_n(x))=1$.
+      \item Mostrare che dato un arbitrario $q(x) \in \mathbb{K}[x]$, esistono $q_1(x),...,q_n(x) \in \mathbb{K}[x]$ tali che
+      \begin{center}
+         $q(x)=q_1(x)P_1(x)+q_2(x)P_2(x)+...+q_n(x)P_n(x)$.
+      \end{center}
+   \end{enumerate}
 \end{enumerate}
 Esame trascritto in \textbf{\LaTeX} da Lucian D. Crainic.
 \end{document}

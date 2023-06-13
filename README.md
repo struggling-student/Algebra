@@ -7,8 +7,6 @@ Anno Accademico 2022/2023
 - [Gennaio-2023](https://github.com/struggling-student/Algebra/blob/main/Gennaio-2023/main.pdf)
 - [Febbraio-2023](https://github.com/struggling-student/Algebra/blob/main/Febbraio-2023/main.pdf)
 - [Marzo-2023](https://github.com/struggling-student/Algebra/blob/main/Marzo-2023/main.pdf)
-    >**Note**
-    > Di questo esame manca l'esercizio 5, se qualcuno lo ha può aprire una issue o fare una pull request. Altrimenti inviatemelo via email: crainic.lucian@gmail.com.
 >**Warning**
 > Gli esami sotto devono essere ancora svolti dall'attuale professore, quindi non sono ancora disponibili. Dopo ogni appello, verranno aggiunti alla repository.
 - [Giugno-2023]()
