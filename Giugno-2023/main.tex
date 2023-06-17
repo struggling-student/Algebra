@@ -1,0 +1,95 @@
+\documentclass[fleqn]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{mathexam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\ExamClass{Algebra}
+\ExamName{Quarto Appello}
+\ExamHead{16 Giugno 2023}
+
+\let\ds\displaystyle
+
+\begin{document}
+\begin{enumerate}
+   \item Risolvere (se possibile) i seguenti sistemi di congruenze:
+   
+   \begin{enumerate} 
+      \item \begin{center} 
+      $ \begin{cases}
+         10x \equiv 6 \pmod{16} \\
+         12x \equiv 18 \pmod{21} \\
+         10x \equiv 16 \pmod{22} 
+      \end{cases} $
+      \end{center}
+      \item \begin{center} 
+      $ \begin{cases}
+         x \equiv 15 \pmod{24} \\
+         x \equiv 21 \pmod{30} \\
+         x \equiv 33 \pmod{36} 
+      \end{cases} $
+      \end{center}
+      \item \begin{center}
+      $ \begin{cases}
+         x \equiv 7 \pmod{24} \\
+         x \equiv 25 \pmod{30} \\
+         x \equiv 31 \pmod{36} 
+      \end{cases} $
+      \end{center}
+   \end{enumerate}
+
+   \item Discutere il comportamento del sistema(ovvero, se è determinato, indeterminato o incompatibile)
+   \begin{center}
+   $\begin{cases} 
+      x + ay + bz = b \\
+      bx + z = 0 \\
+      x + ay + z = 2
+   \end{cases}$ \\
+   \end{center}
+   al variare dei parametri $a,b \in \mathbb{R}$.
+
+   \item \begin{enumerate}
+      \item Trovare il massimo comune divisore dei seguenti polinomi $p(x),q(x) \in \mathbb{R}[x]$:
+      \begin{center}
+         $p(x)= x^5 + x^3 + x^2 + 1, \qquad q(x)=x^5-3x^4+2x^3+x^2-3x+2$.
+      \end{center}
+      \item Calcolare la decomposizione dei precedenti polinomi $p(x),q(x)$ nel prodotto di fattori irriducibili
+      negli anelli $\mathbb{R}[x]$ e $\mathbb{C}[x]$.
+   \end{enumerate}
+
+   \item Si consideri la matrice (dipendente dal parametro $a \in \mathbb{R}$)
+   \begin{center}
+   $A = \begin{pmatrix}
+         a & 1 & 1  \\
+         1 & 2 & 3  \\
+         -1 & -1 & -2 
+      \end{pmatrix}
+      \in Mat_{3 \times 3}(\mathbb{R}).$
+   \end{center}
+   \begin{enumerate}
+      \item Stabilire per quali valori di $a$ la matrice è diagonalizzabile (sul campo $\mathbb{R}$ 
+      dei numeri reali).
+      \item Posto $a=0$ (e avendo mostrato al precedento punto (a) che A è diagonalizzabile per questa scelta
+      di $a \in \mathbb{R}$), determinare una matrice invertibile $B \in GL(3,\mathbb{R})$ e una matrice diagonale 
+      $D \in Mat_{3 \times 3}(\mathbb{R})$ tali che 
+      \begin{center}
+      $D=B^{-1}AB$.
+      \end{center}
+   \end{enumerate}
+
+   \item Date applicazioni lineari $f:U \rightarrow V$ e $g:V \rightarrow W$ tra spazi vettoriali di 
+   dimensione finita, $U,V$ e $W$, e donotando con $g \circ f : U \rightarrow W$ la loro composizione, mostrare che
+   \begin{enumerate}
+      \item $rk(g \circ f) \leq rk(f)$, e vale l'uguaglianza se e soltanto se
+      \begin{center}
+          Im$(f) \cap $ Ker$(g) = \{ 0_V \}$.
+      \end{center}
+      \item $rk(g \circ f) \leq rk(g)$, e vale l'uguaglianza se e soltanto se
+      \begin{center}
+         Im$(f) + $ Ker$(g) = V$.
+      \end{center}
+   \end{enumerate}
+
+\end{enumerate}
+Esame trascritto in \textbf{\LaTeX} da Lucian D. Crainic.
+\end{document}

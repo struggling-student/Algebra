@@ -1,7 +1,7 @@
-PWD /home/Lucian/Github/struggling-student/Algebra/Gennaio-2023
+PWD /home/Lucian/Github/struggling-student/Algebra/Giugno-2023
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/Lucian/Github/struggling-student/Algebra/Gennaio-2023/main.tex
+INPUT /home/Lucian/Github/struggling-student/Algebra/Giugno-2023/main.tex
 OUTPUT main.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
