@@ -1,0 +1,123 @@
+\documentclass[fleqn]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{mathexam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\ExamClass{Algebra}
+\ExamName{Quinto Appello}
+\ExamHead{14 Luglio 2024}
+
+\let\ds\displaystyle
+
+\begin{document}
+\begin{enumerate}
+   \item Risolvere (se possibile) i seguenti sistemi di congruenze:
+   
+   \begin{enumerate} 
+      \item \begin{center} 
+      $ \begin{cases}
+         20x \equiv 24 \pmod{28} \\
+         21x \equiv 27 \pmod{30} \\
+         12x \equiv 18 \pmod{39} 
+      \end{cases} $
+      \end{center}
+      \item \begin{center} 
+      $ \begin{cases}
+         x \equiv 9 \pmod{28} \\
+         x \equiv 37 \pmod{42} \\
+         x \equiv 13 \pmod{72} 
+      \end{cases} $
+      \end{center}
+      \item \begin{center}
+      $ \begin{cases}
+         x \equiv 9 \pmod{28} \\
+         x \equiv 23 \pmod{42} \\
+         x \equiv 35 \pmod{72} 
+      \end{cases} $
+      \end{center}
+   \end{enumerate}
+
+   \item Discutere il comportamento del sistema(ovvero, se è determinato, indeterminato o incompatibile)
+   \begin{center}
+   $\begin{cases} 
+      (b-1)x + (a-1)y + (1-a)z = 1-b\\
+      (a-b)x + ay - bz = 0 \\
+      2x + (1-a)y + (a+b)z = 1 + a
+   \end{cases}$ \\
+   \end{center}
+   al variare dei parametri $a,b \in \mathbb{R}$.
+
+   \item Date le seguenti permutazioni nel gruppo simmetrico $S_9$:
+   \begin{center}
+      $ \sigma_{1} = \begin{pmatrix}
+         1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+         8 & 6 & 1 & 7 & 4 & 9 & 5 & 3 & 2
+      \end{pmatrix} $
+
+      $ \sigma_{2} = \begin{pmatrix}
+         1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+         5 & 6 & 8 & 7 & 4 & 3 & 1 & 9 & 2
+      \end{pmatrix} $
+
+      $ \sigma_{3} = \begin{pmatrix}
+         1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+         6 & 7 & 9 & 1 & 8 & 3 & 5 & 2 & 4
+      \end{pmatrix} $
+   \end{center}
+
+   \begin{enumerate}
+      \item Calcolare il prodotto $\sigma_{1}^{-1} \sigma_{2}^{-1} \sigma_{3}^{-1}$ nel gruppo $S_9$.
+      \item Calcolare il segno e l'ordine di $\sigma_{1}$,$\sigma_{2}$ e $\sigma_{3}$.
+      \item Per ogni $1 \leq i < j \leq 3$, stabilire se $\sigma_{i}$ e $\sigma_{j}$ sono coniugate tra loro, e in caso affermativo esibire $\alpha \in S_9$ tale che $\sigma_{j}= \alpha \sigma_{i} \alpha^{-1}$.
+   \end{enumerate}
+
+   \item Stabilire per quali valori del parametro $a \in \mathbb{R}$ la matrice 
+   \begin{center}
+   $A = \begin{pmatrix}
+         1 & 0 & a^2 \\
+         0 & a & 0 \\
+         1 & 0 & 1 
+      \end{pmatrix}
+      \in Mat_{3 \times 3}(\mathbb{R})$.
+   \end{center}
+   è diagonalizzabile (sul campo $\mathbb{R}$ dei numeri reali).
+
+   \item Sia $A_n \in Mat_{n \times n}(\mathbb{R})$ la matrice con tutti uno sulla prima riga, la prima colonna
+   e la diagonale principale, e tutti zero altrove. Ad esempio per $n=2,3,4,5,...$
+   \begin{center}
+   $
+   A_2 = \begin{pmatrix}
+         0 & 1 \\
+         1 & 0
+      \end{pmatrix},
+   A_3 = \begin{pmatrix}
+       0 & 1 & 1 \\
+       1 & 0 & 1 \\
+       1 & 1 & 0 
+    \end{pmatrix},
+   A_4 = \begin{pmatrix}
+       0 & 1 & 1 & 1\\
+       1 & 0 & 1 & 1  \\
+       1 & 1 & 0 & 1 \\
+       1 & 1 & 1 & 0 
+    \end{pmatrix},
+   A_5 = \begin{pmatrix}
+       0 & 1 & 1 & 1 & 1\\
+       1 & 0 & 1 & 1 & 1 \\
+       1 & 1 & 0 & 1 & 1 \\
+       1 & 1 & 1 & 0 & 1 \\
+       1 & 1 & 1 & 1 & 0
+    \end{pmatrix},
+    ...
+   $
+   \end{center}
+
+   \begin{enumerate}
+      \item Mostrare che il polinomio caratteristico di $A_n$ è $p_{A_n}(x) = (x+1)^{n-1}(x-n+1)$.
+      \item Stabilire se $A_n$ è diagonalizzabile (sul campo $\mathbb{R}$ dei numeri reali).
+   \end{enumerate}
+
+\end{enumerate}
+Esame trascritto in \textbf{\LaTeX} da Lucian D. Crainic.
+\end{document}
