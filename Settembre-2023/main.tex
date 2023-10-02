@@ -1,0 +1,74 @@
+\documentclass[fleqn]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{mathexam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\ExamClass{Algebra}
+\ExamName{Sesto Appello}
+\ExamHead{06 Settembre 2023}
+
+\let\ds\displaystyle
+
+\begin{document}
+\begin{enumerate}
+   \item Risolvere (se possibile) i seguenti sistemi di congruenze:
+   
+   \begin{enumerate} 
+      \item \begin{center} 
+      $ \begin{cases}
+         8x \equiv 10 \pmod{18} \\
+         9x \equiv 15 \pmod{24} \\
+         21x \equiv 18 \pmod{33} 
+      \end{cases} $
+      \end{center}
+      \item \begin{center} 
+      $ \begin{cases}
+         x \equiv 19 \pmod{24} \\
+         x \equiv 13 \pmod{30} \\
+         x \equiv 25 \pmod{36} 
+      \end{cases} $
+      \end{center}
+      \item \begin{center}
+      $ \begin{cases}
+         x \equiv 21 \pmod{24} \\
+         x \equiv 3 \pmod{30} \\
+         x \equiv 9 \pmod{36} 
+      \end{cases} $
+      \end{center}
+   \end{enumerate}
+
+   \item Discutere il comportamento del sistema(ovvero, se è determinato, indeterminato o incompatibile)
+   \begin{center}
+   $\begin{cases} 
+      x+ay+a^2z=1-b \\
+      (4a+1)x-y-(8a^2-1)z=b \\
+      x+y+z = 0
+   \end{cases}$ \\
+   \end{center}
+   al variare dei parametri $a,b \in \mathbb{R}$.
+
+   \item Calcolare l'ordine e l'inverso di $[719]$ nel gruppo $\mathbb{Z}_{1155}^*$.
+
+   \item Stabilire per quali valori del parametro $a \in \mathbb{R}$ la seguente matrice 
+   \begin{center}
+    $
+    A = \begin{pmatrix}
+       1 & a & 0 \\
+       -2 & 1 & 2 \\
+       0 & a & 1
+    \end{pmatrix}
+    \in Mat_{3 \times 3}( \mathbb{R}).
+    $ 
+    \end{center}
+      è diagonalizzabile (sul campo $\mathbb{R}$ dei numeri reali).
+   
+   \item Siano $g$ e $h$ elementi di un gruppo finito G tali che $gh = hg$. Detti $o(g), o(h), o(gh)$ rispettivamente
+   gli ordini degli elementi $g, h, gh$ nel gruppo G:
+    \begin{enumerate}
+      \item mostrare che $o(gh)$ divide $mcm(o(g), o(h))$;
+      \item mostrare che se $MCD(o(g), o(h)) = 1$ allora $o(gh) = o(g)o(h)$.
+    \end{enumerate}
+\end{enumerate}
+Esame trascritto in \textbf{\LaTeX} da Lucian D. Crainic.
+\end{document}

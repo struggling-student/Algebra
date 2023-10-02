@@ -8,9 +8,9 @@ Anno Accademico 2022/2023
 - [Marzo-2023](https://github.com/struggling-student/Algebra/blob/main/Marzo-2023/main.pdf)
 - [Giugno-2023](https://github.com/struggling-student/Algebra/blob/main/Giugno-2023/main.pdf)
 - [Luglio-2023](https://github.com/struggling-student/Algebra/blob/main/Luglio-2023/main.pdf)
+- [Settembre-2023](https://github.com/struggling-student/Algebra/blob/main/Settembre-2023/main.pdf)
 >**Warning**
 > Gli esami sotto devono essere ancora svolti dall'attuale professore, quindi non sono ancora disponibili. Dopo ogni appello, verranno aggiunti alla repository.
-- [Settembre-2023]()
 - [Ottobre-2023]()
 
 # :loudspeaker: Come contribuire alla repository 
